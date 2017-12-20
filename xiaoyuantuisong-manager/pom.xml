@@ -1,0 +1,27 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.xyts</groupId>
+    <artifactId>xiaoyuantuisong-parent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <groupId>com.xyts</groupId>
+  <artifactId>xiaoyuantuisong-manager</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  
+  <!-- 依赖管理 -->
+  <dependencies>
+  	<dependency>
+  		<groupId>com.xyts</groupId>
+    	<artifactId>xiaoyuantuisong-common</artifactId>
+    	<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  </dependencies>
+  <modules>
+  	<module>xiaoyuantuisong-manager-pojo</module>
+  	<module>xiaoyuantuisong-manager-mapper</module>
+  	<module>xiaoyuantuisong-manager-service</module>
+  	<module>xiaoyuantuisong-manager-web</module>
+  </modules>
+</project>
